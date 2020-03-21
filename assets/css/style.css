@@ -34,6 +34,21 @@ Navy - #2B4570
   background-color: #E7EAE3 !important;
 }
 
+.navbar-light .navbar-toggler-icon{
+
+background-image: url("../images/menu.svg") !important;
+
+}
+
+.navbar-expand-md {
+    padding-left: 0 !important;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+   
+}
+
 /*------- Hero Section - General */
 .top-background {
 background-color: #E7EAE3;
