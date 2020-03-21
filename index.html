@@ -35,29 +35,29 @@
 
 	<!--First Section-->
 	<section>
-		<div class="container-fluid top-background">
-			<nav class="navbar navbar-light bg-transparent navbar-expand-md navbar-fixed-top navbar-trans">
-				<!--Menu button for mobile-->
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+		<nav class="navbar navbar-light bg-transparent navbar-expand-md navbar-fixed-top navbar-trans top-background">
+			<!--Menu button for mobile-->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
-				<!--Nav Items-->
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact Us</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
+			<!--Nav Items-->
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-			<!--
+		<!--
                 This section will hold the hero section of the webpage. It will consist of two columns 
                 One column will have the company text, sub text, and some information on the website
 
@@ -69,20 +69,26 @@
                 This will be achieved by using bootstrap columns (Two col-6 items that will break on medium screens)
 
             -->
-
+		<div class="container-fluid hero-section">
 			<div class="row">
 				<!--Text section-->
-				<div class="col-md-6 bg-red">
-					<div class="main-text">
-						<h1>Envirotech</h1>
+              
+				<div class="col-md-6 top-background left-push">
+                <img src="assets/images/leaf-bg.png" alt="leaf" id="leaf-bg">
+					<div>
+						<h1 class="main-text uppercase">Envirotech</h1>
 					</div>
-					<div class="sub-text">
-						<h4>Inform and Protect</h4>
+					<div>
+						<h4 class="sub-text">Inform and Protect</h4>
 					</div>
-                    <div class="about-text">
-                    <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </p>
-                    </div>
+					<div class="about-text">
+						<p>
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+							invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+							et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+							sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+							voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </p>
+					</div>
 
 
 				</div>
@@ -90,19 +96,19 @@
 
 
 				<!--Image section-->
-				<div class="col-md-6 bg-blue">
-				<img src="assets/images/earth1.jpg" id="earth-image" alt="earth image">
-                <div class="explore-button">
-                </div>
+				<div class="col-md-6 top-background image-section">
+					<img src="assets/images/earth1.jpg" id="earth-image" alt="earth image">
+					<div class="explore-button">
+					</div>
 				</div>
+
 			</div>
-
-
-
-
-
-
 		</div>
+
+
+
+
+
 
 	</section>
 	<!--How does it work-->

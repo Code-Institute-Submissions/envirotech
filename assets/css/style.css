@@ -1,6 +1,10 @@
 body {
 font-family: 'Noto Sans', sans-serif;
-font-size: 16px;
+}
+
+.container, .container-fluid {
+    border: 0;
+
 }
 
 /*------ Colours
@@ -11,7 +15,7 @@ Navy - #2B4570
 
 */ 
 
-
+/*---------------For formatting use*/
 
 
 /*------ General Text Use*/
@@ -24,40 +28,53 @@ Navy - #2B4570
     text-align: center;
 }
 
-
-/*------- */
-
-.container, .container-fluid {
-    border: 0;
-
-}
-
-.top-background {
-background-color: #E7EAE3;
-background-size: cover;
-height: 60vh; /*60% of the viewport height*/
-}
+/*------------- Nav Bar */
 
 .navbar {
-  background-color: transparent !important;
+  background-color: #E7EAE3 !important;
 }
 
-.bg-red {
-    background-color: red;
-    height: 100%;
-    width: 100%;
+/*------- Hero Section - General */
+.top-background {
+background-color: #E7EAE3;
+
 }
 
-.bg-blue {
-    background-color: blue;
-    height: 100%;
-    width: 100%;
+/*------- Hero Section - Text Section */
+.hero-section {
+    height: 500px;
+    background-color: #E7EAE3;
 }
+
+.left-push{
+    padding-left: 2%;
+}
+
+
+.main-text {
+    color: #2B4570;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+   
+  
+}
+
+.sub-text {
+    color: #2B4570;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1.8vw;
+    padding-left: 18.5vw;
+
+}
+
+
+
 
 #earth-image {
     height: 250px;
     width: 300px;
-
 }
 
 .explore-button {
@@ -67,3 +84,38 @@ height: 60vh; /*60% of the viewport height*/
     border: 0;
 
 }
+
+#leaf-bg {
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    
+}
+
+
+@media only screen and (max-width: 1199.98px) {
+
+.main-text {
+font-size: 6vw;
+}
+
+}
+
+
+@media only screen and (max-width: 991px) {
+
+.main-text {
+font-size: 7vw;
+}
+
+}
+
+@media only screen and (max-width: 767.98px) {
+
+.main-text {
+font-size: 12vw;
+}
+
+}
+
