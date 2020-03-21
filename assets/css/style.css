@@ -1,0 +1,58 @@
+body {
+font-family: 'Noto Sans', sans-serif;
+font-size: 16px;
+}
+
+/*------ Colours
+
+Background light - #E7EAE3 
+Light blue - #43EECB
+Navy - #2B4570
+
+*/ 
+
+
+
+
+/*------ General Use*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*------- */
+
+.container, .container-fluid {
+    border: 0;
+
+}
+
+.top-background {
+background-color: #E7EAE3;
+background-size: cover;
+height: 60vh; /*60% of the viewport height*/
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.bg-red {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-blue {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* .bg-blue
+Breaks at 1000px to two lines 
+Needs another break at 500px - Font needs to be reduced again 
+/*
