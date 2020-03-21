@@ -14,10 +14,14 @@ Navy - #2B4570
 
 
 
-/*------ General Use*/
+/*------ General Text Use*/
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
 }
 
 
@@ -50,9 +54,16 @@ height: 60vh; /*60% of the viewport height*/
     width: 100%;
 }
 
+#earth-image {
+    height: 250px;
+    width: 300px;
 
+}
 
-/* .bg-blue
-Breaks at 1000px to two lines 
-Needs another break at 500px - Font needs to be reduced again 
-/*
+.explore-button {
+    width: 300px;
+    height: 45px;
+    background-color: #2B4570;
+    border: 0;
+
+}
