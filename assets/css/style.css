@@ -28,10 +28,15 @@ Navy - #2B4570
     text-align: center;
 }
 
+.align-text-right {
+    text-align: right;
+}
+
 /*------------- Nav Bar */
 
 .navbar {
   background-color: #E7EAE3 !important;
+  padding-bottom: 40px;
 }
 
 .navbar-light .navbar-toggler-icon{
@@ -54,24 +59,30 @@ background-image: url("../images/menu.svg") !important;
 background-color: #E7EAE3;
 
 }
+.left-push{
+    padding-left: 10%;
+}
 
-/*------- Hero Section - Text Section */
+.left-push-small{
+    padding-left: 5%;
+}
+
+.right-push {
+    padding-right: 3%;
+}
+
 .hero-section {
-    height: 500px;
+    height: 450px;
     background-color: #E7EAE3;
 }
 
-.left-push{
-    padding-left: 2%;
-}
-
-
+/*------- Hero Section - Text Section */
 .main-text {
     color: #2B4570;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
-    font-size: 5vw;
-   
+    font-size: 7vw;
+
   
 }
 
@@ -79,32 +90,40 @@ background-color: #E7EAE3;
     color: #2B4570;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 200;
-    font-size: 1.8vw;
-    padding-left: 18.5vw;
+    font-size: 1.6vw;
+   
 
 }
-
 
 
 
 #earth-image {
-    height: 250px;
-    width: 300px;
+    height: 350px;
+    width: 500px;
+    padding-top: 20px;
 }
 
 .explore-button {
-    width: 300px;
+    width: 485px;
     height: 45px;
     background-color: #2B4570;
     border: 0;
+    margin-left: 6px;
+}
 
+#explore-text {
+    color: #fff; 
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
 }
 
 #leaf-bg {
-    height: 100%;
-    width: 80%;
+    height: 80%;
+    width: 60%;
     position: absolute;
-    top: 50%;
+    top: 100px;
+    left: 10%;
     
 }
 
@@ -115,6 +134,10 @@ background-color: #E7EAE3;
 font-size: 6vw;
 }
 
+.sub-text {
+    font-size: 2.4vw;
+}
+
 }
 
 
@@ -122,6 +145,10 @@ font-size: 6vw;
 
 .main-text {
 font-size: 7vw;
+}
+
+.sub-text {
+    font-size: 3.4vw;
 }
 
 }
