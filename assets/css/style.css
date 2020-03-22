@@ -1,3 +1,9 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+
 body {
 font-family: 'Noto Sans', sans-serif;
 }
@@ -8,8 +14,8 @@ font-family: 'Noto Sans', sans-serif;
 }
 
 /*------ Colours
-
 Background light - #E7EAE3 
+Background Dark - #C2CFB7
 Light blue - #43EECB
 Navy - #2B4570
 
@@ -32,6 +38,10 @@ Navy - #2B4570
     text-align: right;
 }
 
+
+.mar-top {
+    margin-top: 10px;
+}
 /*------------- Nav Bar */
 
 .navbar {
@@ -72,8 +82,19 @@ background-color: #E7EAE3;
 }
 
 .hero-section {
-    height: 450px;
+    min-height: 100%;
     background-color: #E7EAE3;
+    min-width: 100%;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+
+
+.section2 {
+    min-height: 500px;
+    background-color: #fafafa;
+    min-width: 100%;
+    overflow: hidden;
 }
 
 /*------- Hero Section - Text Section */
@@ -86,13 +107,6 @@ background-color: #E7EAE3;
   
 }
 
-.heading-text-1  {
-    color: #2B4570;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
-    font-size: 3vw;
-    padding: 15px;
-}
 
 .sub-text {
     color: #2B4570;
@@ -106,14 +120,14 @@ background-color: #E7EAE3;
 
 
 #earth-image {
-    height: 350px;
-    width: 500px;
+    height: 60%;
+    width: 80%;
     padding-top: 20px;
 }
 
 .explore-button {
-    width: 485px;
-    height: 45px;
+    width: 78%;
+    height: 5%;
     background-color: #2B4570;
     border: 0;
     margin-left: 6px;
@@ -127,13 +141,80 @@ background-color: #E7EAE3;
 }
 
 #leaf-bg {
-    height: 80%;
-    width: 60%;
+    height: 70%;
+    width: 50%;
     position: absolute;
-    top: 100px;
-    left: 10%;
-    
+    top: 30%;
+    left: 20%;
+     overflow: hidden;
 }
+
+
+#earth-image {
+    height: 70%;
+    width: 90%;
+    padding-top: 20px;
+}
+
+.explore-button {
+    width: 88%;
+    height: 5%;
+    background-color: #2B4570;
+    border: 0;
+    margin-left: 6px;
+}
+
+/* ----------------- About Section */
+
+.about-title {
+    color: #2B4570;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+.about-title-style {
+    margin-top: 2%;
+}
+
+.block-underline {
+    height: 10px;
+    width: 7vw;
+    background-color: #2B4570;
+    position: relative;
+      margin: 0 auto;
+}
+
+.information-row {
+    min-height: 400px;
+      overflow: hidden;
+}
+
+
+.info-block-build {
+width: 50%;
+background-color: #E7EAE3;
+min-height: 100%;
+margin: 0 auto;
+position: relative;
+}
+
+
+.bg-style-dark {
+    background-color:#C2CFB7;
+    height: 5vh;
+    padding: 0;
+}
+
+.style-blue-bar {
+position: relative;
+min-height: 100%;
+min-width: 2.5%;
+background-color: #2B4570;
+display: inline-block;
+left: 0;
+}
+
 
 
 @media only screen and (max-width: 1199.98px) {
@@ -147,7 +228,6 @@ font-size: 6vw;
 }
 
 }
-
 
 @media only screen and (max-width: 991px) {
 
@@ -168,4 +248,3 @@ font-size: 12vw;
 }
 
 }
-
