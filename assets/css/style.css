@@ -86,6 +86,14 @@ background-color: #E7EAE3;
   
 }
 
+.heading-text-1  {
+    color: #2B4570;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+    padding: 15px;
+}
+
 .sub-text {
     color: #2B4570;
     font-family: 'Noto Sans', sans-serif;
