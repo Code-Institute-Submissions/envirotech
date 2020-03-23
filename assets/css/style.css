@@ -50,14 +50,14 @@ font-family: 'Noto Sans', sans-serif;
 .social-tag-style {
     height: 45px;
     width: 40px;
-    background-color: #43EECB;
+    background-color: #506C64;
     margin: 0;
     padding: 0;
 }
 
 .social-icon-style {
    font-size: 25px;
-    color: #2B4570;
+    color: #fafafa;
     padding-top: 9px;
     padding-left: 5px;
     position: absolute;
