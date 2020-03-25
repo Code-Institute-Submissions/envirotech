@@ -31,11 +31,14 @@ font-family: 'Noto Sans', sans-serif;
 
 
 .navbar {
-    background-color: #E7EAE3 !important;
+    background-color: #506C64 !important;
     padding-bottom: 5px;
-    padding-right: 40px;
+    padding-right: 25px;
     padding-left: 20px;
+    
 }
+
+
 
 #style-leaf-logo {
     height: 30px;
@@ -47,10 +50,13 @@ font-family: 'Noto Sans', sans-serif;
 .section-1-style {
     background-color: #E7EAE3;
     padding: 0;
-     margin-top: 30px;
+    margin-top: 30px;
     margin-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    overflow: hidden;
 }
-
+.social-tag-style {
    height: 45px;
     width: 40px;
     background-color: #506C64;
@@ -107,24 +113,29 @@ font-family: 'Noto Sans', sans-serif;
 /* Right section of hero style */
 
 
+
 .hero-project-style {
-    height: 140px;
-    width: 200px;
+    height: 80%;
+    width: 90%;
+    padding-top: 5%;
+    
 }
 
 .view-project-button {
-    height: 30px;
-    width: 200px;
+    height: 15%;
+    width: 90%;
     background-color: #2B4570;
  
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-right: 0;
 }
 
 .button-text-style {
-   color: #fafafa;
+color: #fafafa;
 text-align: center;
-line-height: 30px;
+line-height: 225%;
+font-size: 100%;
 }
 
 
@@ -135,8 +146,8 @@ line-height: 30px;
 .section-2-style {
     padding: 0;
     margin-bottom: 75px;
-     margin-top: 75px;
-     background-color: #fff;
+    margin-top: 75px;
+    background-color: #fff;
 }
 
 .project-row {
@@ -251,6 +262,36 @@ border: 0;
     color: #2B4570;
     text-align: center !important;
    padding-left: 20%;
+}
+
+
+
+.hero-project-style {
+    height: 80%;
+    width: 90%;
+    padding-top: 5%;
+     margin-left: auto;
+ margin-right: auto;
+ display: block;
+}
+
+.view-project-button {
+    height: 15%;
+    width: 90%;
+    background-color: #2B4570;
+ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.button-text-style {
+color: #fafafa;
+text-align: center;
+line-height: 300%;
+font-size: 200%;
 }
 
 
