@@ -46,14 +46,12 @@ font-family: 'Noto Sans', sans-serif;
 
 .section-1-style {
     background-color: #E7EAE3;
-
     padding: 0;
+     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-/*------- Social Tag */
-
-.social-tag-style {
-    height: 45px;
+   height: 45px;
     width: 40px;
     background-color: #506C64;
     margin: 0;
@@ -109,16 +107,57 @@ font-family: 'Noto Sans', sans-serif;
 /* Right section of hero style */
 
 
+.hero-project-style {
+    height: 140px;
+    width: 200px;
+}
 
-/*-------------------- Section 2*/
+.view-project-button {
+    height: 30px;
+    width: 200px;
+    background-color: #2B4570;
+ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-.section-2-style {
-    padding: 0;
+.button-text-style {
+   color: #fafafa;
+text-align: center;
+line-height: 30px;
 }
 
 
 
 
+/*-------------------- Section 2*/
+
+.section-2-style {
+    padding: 0;
+    margin-bottom: 75px;
+     margin-top: 75px;
+     background-color: #fff;
+}
+
+.project-row {
+     margin-top: 40px;
+}
+.project-image-style {
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+    }
+
+.explain-information-style
+{
+    background-color: rgb(80, 108, 100, 0.7);
+      display: inline-block;
+}
+
+
+.inline {
+    display: inline-block;
+}
 
 /*-------------------- Section 3*/
 
