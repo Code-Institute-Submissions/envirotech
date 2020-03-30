@@ -375,6 +375,13 @@ font-size: 2vh;
 
 
 
+/*------------------- Project Pictures */
+.border-right {
+  border-bottom: #fafafa solid 2px;
+  border-right: 0;
+}
+
+
 
 }
 
