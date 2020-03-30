@@ -70,8 +70,17 @@ font-family: 'Noto Sans', sans-serif;
     padding-top: 9px;
     padding-left: 5px;
     position: absolute;
+}
 
-   
+.social-icon-style-inside {
+ font-size: 30px;
+    color: #fafafa;
+    padding: 8px;
+
+}
+
+.social-icon-style-inside:hover {
+   color: #FBFFB9;
 }
 
 .please-share-text {
@@ -116,40 +125,29 @@ font-family: 'Noto Sans', sans-serif;
     height: 80%;
     width: 90%;
     overflow: hidden;
+   position: relative;
 }
 
-
-.project-image-container .overlay{
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 90%;
-  height: 80%;
-  text-align: center;
-  color: #fafafa;
-    line-height: 80%;
+.overlay-text{
+position: absolute;
+height: 30%;
+width: 100%;
+top: 70%;
+background-color: rgba(35, 39, 34, 0.8);
+   line-height: 30%;
 }
 
-.overlay:hover {
-   position: absolute;
-    opacity: 1;
-  background-color: rgba(1,1,1,0.6);
-  transition: opacity 150ms ease-in-out 0s;
-  width: 90%;
-  height: 75%;
-  top: 5%;
-vertical-align: center;
+.overlay-text-project-info {
+    color: #fafafa;
+    font-size: 18px;
+    text-align: center;
 }
-
-
-
-
 
 .hero-project-style {
     height: 100%;
     width: 100%;
     padding-top: 5%;
+    box-shadow: 10px 10px;
     
 }
 
@@ -166,8 +164,7 @@ vertical-align: center;
 .button-text-style {
 color: #fafafa;
 text-align: center;
-line-height: 225%;
-font-size: 100%;
+font-size: 1em;
 }
 
 
@@ -211,8 +208,16 @@ font-size: 100%;
     color: #fafafa;
 }
 
+.project-section-image-style {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  
+}
 
-
+.border-right {
+  border-right: #fafafa solid 2px;
+}
 
 
 
@@ -245,9 +250,10 @@ font-size: 100%;
 }
 
 .footer-style2{
-background-color: #E7EAE3;
+background-color: #506C64;
 width: 100%;
 border: 0;
+color: #fafafa;
 }
 
 .footer-style3 {
@@ -266,6 +272,12 @@ background-color: #2B4570;
 border: 0;
 }
 
+.address-style {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2.5%;
+}
+
 
 
 /*-------------------- Media Query styles*/
@@ -276,6 +288,18 @@ border: 0;
 }
 
 @media only screen and (max-width: 991px) {
+
+
+.section-1-style {
+
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
 
 /* Alter heading text*/
 .main-text-style {
@@ -334,8 +358,19 @@ border: 0;
 color: #fafafa;
 text-align: center;
 line-height: 300%;
-font-size: 200%;
+font-size: 2vh;
 }
+
+
+/*------------------------- Section 2 */
+
+
+.section-2-style {
+ margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
 
 
 
@@ -356,15 +391,15 @@ font-size: 200%;
 	 -moz-transition: width 0.3s ease-in-out;
 	 -o-transition: width 0.3s ease-in-out;
 	 transition: width 0.3s ease-in-out;
-	 width: 300px;
+	 width: 200px;
 }
  .social-tag-style:hover .please-share-text {
 
-    -webkit-transition: opacity 0.5s ease-in;
-    -moz-transition: opacity 0.5s ease-in;
-    -o-transition: opacity 0.5s ease-in;
-    -ms-transition: opacity 0.5s ease-in;
-    transition: opacity 2s ease-in;
+    -webkit-transition: opacity 0.3s ease-in;
+    -moz-transition: opacity 0.3s ease-in;
+    -o-transition: opacity 0.3s ease-in;
+    -ms-transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in;
     opacity: 1;
 	
 }
