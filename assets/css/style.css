@@ -235,35 +235,10 @@ font-size: 1em;
 .section-4-style {
     padding: 0;
       background-color: #fff;
-        margin-bottom: 50px;
-        margin-top: 50px;
+      margin-top: 100px;
+      margin-bottom: 50px;
 
 }
-
-.quote-container  {
-    
-    width: 70%;
-    height: 200px;
-
-    
-  
-}
-
-.text-container {
-    color: rgb(116, 116, 116);
-    background-color:rgb(231,234,226);
-     width: 60%;
-     height: 90%;
-  position: absolute;
-   margin-left: 5%;
-   padding-left: 10%;
-   margin-top: 10px;
-   text-align: left;
-
-
-}
-
-
 
 
 .headshot-style {
@@ -277,16 +252,60 @@ font-size: 1em;
 
 .style-stars li {
     display: inline-block;
-    padding: 5px;
-    
+    padding: 2px;
+   
 }
 
 .style-stars {
 text-align: right;
+margin-right: 5px;
+
+}
+
+/* Experiment */
+
+.e-quote-container {
+    width: 70%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.e-image-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 75px;
+    height: 90px;
+    z-index: 3;
 
 }
 
 
+.e-text-container {
+    color: rgb(116, 116, 116);
+    background-color:rgb(231,234,226);
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    max-height: 200px;
+    min-height: 200px;
+    overflow: scroll;
+}
+
+.e-text-container p {
+padding-left: 85px;
+padding-top: 20px;
+padding-right: 20px;
+
+}
+ 
+.e-text-container ul {
+padding: 2px;
+margin-right: 20px;
+margin-top: 5%;
+
+}
 
 
 /*--------------------Footer*/
