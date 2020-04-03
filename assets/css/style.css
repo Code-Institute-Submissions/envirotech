@@ -158,7 +158,7 @@ margin-top: 10px;
 .info-graphic-style {
     display: inline-block;
     padding: 0;
-    min-width: 100%;
+    width: 100%;
 }
 
 .mouse-icon-style {
@@ -167,7 +167,8 @@ margin-top: 10px;
 }
 .info-graphic-icon {
     font-size: 2em;
-   text-align: center;
+    text-align: center;
+    display: block;
 }
 
 .info-graphic-heading {
@@ -182,6 +183,7 @@ margin-top: 10px;
     padding: 10px;
     min-width: 100%;
     margin: 5px;
+    background-color: #E7EAE2;
 }
 
 
@@ -194,6 +196,36 @@ margin-top: 10px;
        padding-right: 8px;
      color: #506C64;
 }
+
+/* ---- Hover text */
+
+.design-info h6 {
+    display: none;
+    text-align: center;
+    color:#FAFAFA; 
+    font-size: 1em;
+      padding: 2.5px;
+}
+
+.design-info:hover {
+background-color: #383D3B;
+}
+
+.design-info:hover h6 {
+    display: block;
+    text-align: center;
+}
+
+.design-info:hover i {
+    display: none;
+}
+
+
+
+
+/* ----- Hover Effects */ 
+
+
 
 
 
@@ -335,8 +367,17 @@ margin-bottom: 30px;
     border: none;
     width: 100%;
     height: 5%;
-    margin-top: 8px;
+    margin-top: 9%;
 }
+
+.btn-success {
+    background-color: green !important;
+    border: none;
+    width: 100%;
+    height: 5%;
+    margin-top: 9%;
+}
+
 
 .card-title-style {
     font-size: 1em;
@@ -417,28 +458,23 @@ margin-bottom: 30px;
 
 
 
+.list-of-info {
+   
+    text-align: center;
+}
+
+
 
 /*-------------------- Section 3*/
-
 .section-3-style {
-   
-    padding: 0;
-    background-color: #33658A;
-    color: #fafafa;
-   
+    background-color: #fbfbfb;
+    padding: 30px;
 }
 
-.project-section-image-style {
-    position: relative;
-    width: 100%;
-    min-height: 100%;
-    
-}
 
-.border-right {
-  border-right: #fafafa solid 2px;
+.style-outer-card {
+    margin-top: 10px;
 }
-
 
 /*-------------------- Section 4*/
 
