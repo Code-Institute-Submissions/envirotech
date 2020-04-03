@@ -131,7 +131,7 @@ margin-top: 10px;
 .main-text-style {
     font-weight: 700;
     font-size: 8.5vw;
-    color: #383D3B;
+    color: #373D3B;
     margin-bottom: 0;
     text-align: right;
     
@@ -140,7 +140,7 @@ margin-top: 10px;
 .sub-text-style {
     font-weight: 400;
     font-size: 1.5vw;
-    color: #506C64;
+    color: #373D3B;
     margin-top: -10px;
     margin-right: 10px;
 }
@@ -169,6 +169,7 @@ margin-top: 10px;
     font-size: 2em;
     text-align: center;
     display: block;
+  
 }
 
 .info-graphic-heading {
@@ -188,13 +189,15 @@ margin-top: 10px;
 
 
 .life-project-title {
-    margin-bottom: 10px;
+   
+    margin-top: 10px;
+    
 }
 
 .heading-icon-style {
     padding-left: 8px;
        padding-right: 8px;
-     color: #506C64;
+     color: #00aa66;
 }
 
 /* ---- Hover text */
@@ -247,6 +250,8 @@ top: 70%;
 background-color: rgba(35, 39, 34, 0.8);
    line-height: 30%;
 }
+
+
 
 .overlay-text-project-info {
     color: #fafafa;
@@ -367,7 +372,7 @@ margin-bottom: 30px;
     border: none;
     width: 100%;
     height: 5%;
-    margin-top: 9%;
+    margin-top: 8.2%;
 }
 
 .btn-success {
