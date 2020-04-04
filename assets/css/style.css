@@ -65,7 +65,7 @@ font-family: 'Noto Sans', sans-serif;
 .section-1-style {
     background-color: #fbfbfb;
     padding: 0;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     padding-top: 25px;
     padding-bottom: 30px;
     overflow: hidden;
@@ -486,8 +486,8 @@ margin-bottom: 30px;
 .section-4-style {
     padding: 0;
       background-color: #fff;
-      margin-top: 100px;
-      margin-bottom: 50px;
+      margin-top: 80px;
+      margin-bottom: 80px;
 
 }
 
@@ -510,15 +510,27 @@ margin-bottom: 30px;
 .style-stars {
 text-align: right;
 margin-right: 5px;
+margin-top : 5px;
 
 }
 
 /* Experiment */
 
+
+.section-4-heading-style {
+    padding: 20px;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    color:#383D3B;
+    margin-bottom: 80px;
+   
+}
+
 .e-quote-container {
     width: 70%;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .e-image-container {
@@ -542,6 +554,7 @@ margin-right: 5px;
     max-height: 200px;
     min-height: 200px;
     overflow: scroll;
+    font-size: 0.9em;
 }
 
 .e-text-container p {
@@ -557,6 +570,8 @@ margin-right: 20px;
 margin-top: 5%;
 
 }
+
+
 
 
 /*--------------------Footer*/
