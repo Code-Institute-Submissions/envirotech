@@ -374,7 +374,7 @@ margin-bottom: 30px;
     border: none;
     width: 100%;
     height: 5%;
-    margin-top: 8.2%;
+    margin-top: 9.5%;
 }
 
 .btn-success {
@@ -423,7 +423,6 @@ margin-bottom: 30px;
     font-size: 4vw;
     color: #373D3B;
     margin-bottom: 0;
-       display: block;
 }
 
 .submit-project-subtitle {
@@ -435,6 +434,45 @@ margin-bottom: 30px;
     text-align: center;
 }
 
+.style-entire-form {
+    margin-top: 30px;
+}
+
+
+.input-style {
+ border: 1.5px solid rgba(55, 61, 59, 0.192) !important;
+border-radius: 3px;
+max-width: 100%;
+margin-bottom: 20px;
+}
+
+.select-style {
+    margin-bottom: 20px;
+}
+
+.textbox-input-style {
+    min-width: 80%;
+     border: 1.5px solid rgba(55, 61, 59, 0.192) !important;
+border-radius: 3px;
+}
+
+.select-style {
+   max-width: 100%; 
+}
+
+.marketing-text {
+    font-size: 0.7em;
+}
+
+.modal-footer {
+    justify-content: center !important;
+}
+
+.social-icon-form {
+    color: #373D3B;
+    font-size: 2em;
+  
+}
 
 
 /*-------------------- Section 2*/
@@ -729,9 +767,7 @@ margin-bottom: 10px;
    text-align: center;
 }
 
-.btn-primary {
-    margin-top: 5px;
-}
+
 
 .btn-success {
     margin-top: 5px;

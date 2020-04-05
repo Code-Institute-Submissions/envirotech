@@ -23,14 +23,23 @@
 		integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
 	<!-- Link to style.css -->
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/hover.css" type="text/css" media="all">
+	<!--Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:100,200,300,400,500,600,700,800&display=swap"
+		rel="stylesheet">
 	<title>Envirotech</title>
 </head>
 
 <body>
-	<!--Logo and Text-->
-	<nav class="navbar navbar-light bg-transparent navbar-expand-md navbar-fixed-top">
+	<!--Nav Bar-->
+
+
+
+
+	<nav
+		class="navbar sticky-top navbar-light bg-transparent navbar-expand-md navbar-fixed-top navbar-trans top-background">
 		<a class="navbar-brand" href="#">
-			<h2> Project Name </h2>
+			<i class="fas fa-leaf brand-logo-style"></i>
 		</a>
 		<!--Menu button for mobile-->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,24 +47,96 @@
 </button>
 		<!--Nav Items-->
 		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="projects.html">Projects</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Porjects</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact Us</a>
+					<a class="nav-link" data-toggle="modal" data-target="#contact-us">Contact Us</a>
+
+
+
+
 				</li>
 			</ul>
+
 		</div>
+
+
+
 	</nav>
+	<!--First Section-->
+
+
+	<section>
+		<!--Contact Us Pop Up-->
+		<div class="modal fade" id="contact-us" tabindex="-1" role="dialog" aria-labelledby="contact-us"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header text-center">
+						<h5 class="submit-project-title modal-title w-100">
+							Env<span style="color: #00aa66">i</span>rotech
+						</h5>
 
 
 
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                         <span aria-hidden="true">&times;</span>
+                                                         </button>
 
 
+					</div>
+					<div class="modal-body">
+						<h5 class="submit-project-subtitle">Please complete the
+							<span style="color: #00aa66">form</span> below</h5>
+						<form method="post" action="#" id="contact-us-form" class="style-entire-form">
+							<label for="your-name">Your Name</label> <br/>
+							<input type="text" id="name" class="input-style" placeholder="Your Name">
+							<br/>
+							<label for="email">Your Email</label> <br/>
+							<input type="email" id="email-address" class="input-style" placeholder="Your Email Address">
+							<br/>
+							<label for="pmessage">Your Message</label><br/>
+
+							<textarea size="250" id="message" class="textbox-input-style" placeholder="Describe the project">
+                                                                </textarea>
+
+						</form>
+
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#submitmessage">Send!</button>
+						<div class="modal fade" id="submitmessage" tabindex="-1" role="dialog"
+							aria-labelledby="submit-message" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-body text-center w-100">
+										<h5>
+											We'll be in touch soon!
+										</h5>
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+					<div class="modal-footer">
+
+						<i class="fab fa-facebook-square social-icon-form"></i>
+						<i class="fab fa-instagram-square social-icon-form"></i>
+						<i class="fab fa-twitter-square social-icon-form"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</section>
 </body>
 
 </html>

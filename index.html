@@ -49,19 +49,91 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Projects</a>
+					<a class="nav-link" href="projects.html">Projects</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Contact Us</a>
+					<a class="nav-link" data-toggle="modal" data-target="#contact-us">Contact Us</a>
+
+
+
+
 				</li>
 			</ul>
+
 		</div>
+
+
+
 	</nav>
 	<!--First Section-->
+
+
 	<section>
+		<!--Contact Us Pop Up-->
+		<div class="modal fade" id="contact-us" tabindex="-1" role="dialog" aria-labelledby="contact-us"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header text-center">
+						<h5 class="submit-project-title modal-title w-100">
+							Env<span style="color: #00aa66">i</span>rotech
+						</h5>
+
+
+
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                         <span aria-hidden="true">&times;</span>
+                                                         </button>
+
+
+					</div>
+					<div class="modal-body">
+						<h5 class="submit-project-subtitle">Please complete the
+							<span style="color: #00aa66">form</span> below</h5>
+						<form method="post" action="#" id="contact-us-form" class="style-entire-form">
+							<label for="your-name">Your Name</label> <br/>
+							<input type="text" id="name" class="input-style" placeholder="Your Name">
+							<br/>
+							<label for="email">Your Email</label> <br/>
+							<input type="email" id="email-address" class="input-style" placeholder="Your Email Address">
+							<br/>
+							<label for="pmessage">Your Message</label><br/>
+
+							<textarea size="250" id="message" class="textbox-input-style" placeholder="Describe the project">
+                                                                </textarea>
+
+						</form>
+
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#submitmessage">Send!</button>
+						<div class="modal fade" id="submitmessage" tabindex="-1" role="dialog"
+							aria-labelledby="submit-message" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-body text-center w-100">
+										<h5>
+											We'll be in touch soon!
+										</h5>
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+					<div class="modal-footer">
+
+						<i class="fab fa-facebook-square social-icon-form"></i>
+						<i class="fab fa-instagram-square social-icon-form"></i>
+						<i class="fab fa-twitter-square social-icon-form"></i>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<div class="container-fluid section-1-style">
 			<div class="row no-gutters">
@@ -188,7 +260,7 @@
 												</li>
 											</ul>
 										</p>
-										<a href="#" class="btn btn-primary">Explore Project</a>
+										<a href="projects.html" class="btn btn-primary">Explore Project</a>
 									</div>
 								</div>
 							</div>
@@ -205,12 +277,34 @@
 												</li>
 											</ul>
 										</p>
-										<a href="#" class="btn btn-success">Project Completed</a>
+
+										<button type="button" class="btn btn-success" data-toggle="modal" data-target="#projectcompleted">
+                                        Project Completed
+                                        </button>
+                        
 									</div>
 								</div>
 							</div>
 						</div>
 
+<!--Project Completed Modal-->
+<div class="modal fade" id="projectcompleted" tabindex="-1" role="dialog" aria-labelledby="projectcompleted" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body text-center w-100">
+        <h6>The assessment phase has been completed on this project. Information is no longer availbale.</h6>
+        <br/>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+      <div class="modal-footer">
+  
+        <i class="fab fa-facebook-square social-icon-form"></i>
+						<i class="fab fa-instagram-square social-icon-form"></i>
+						<i class="fab fa-twitter-square social-icon-form"></i>
+      </div>
+    </div>
+  </div>
+</div>
 
 						<!--Project 2-->
 
@@ -235,30 +329,95 @@ Submit a Form Here
 											aria-labelledby="submit-project" aria-hidden="true">
 											<div class="modal-dialog" role="document">
 												<div class="modal-content">
-													<div class="modal-header">
-                                                        <h5 class="submit-project-title modal-title">Env<span style="color: #00aa66">i</span>rotech
-							</h5>
-            
-                         
+													<div class="modal-header text-center">
+														<h5 class="submit-project-title modal-title w-100">
+															Env<span style="color: #00aa66">i</span>rotech
+														</h5>
+
+
 														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                          <span aria-hidden="true">&times;</span>
                                                          </button>
-                                                    
-                                                    
+
+
 													</div>
 													<div class="modal-body">
-													 <h5 class="submit-project-subtitle">Please complete the <span style="color: #00aa66">form</span> below</h5>
+														<h5 class="submit-project-subtitle">Please complete the
+															<span style="color: #00aa66">form</span> below</h5>
+
+														<form method="post" action="#" id="submit-project"
+															class="style-entire-form">
+															<label for="your-name">Your Name:</label>
+															<input type="text" id="your-name" class="input-style" placeholder="Your Name">
+															<br/>
+															<label for="email">Your Email:</label>
+															<input type="email" id="email" class="input-style" placeholder="Your Email Address">
+															<br/>
+															<label for="location">Your Location:</label>
+															<input type="text" id="location" class="input-style" placeholder="Your Location">
+															<label for="project-type">Which option best describes this project? </label>
+															<select id="project-type" class="select-style">
+                                                                <option value="select-item">Select Project Type</option>
+                                                                 <option value="road">Road (New/Upgrade)</option>
+                                                                  <option value="bridge">Bridge (New/Upgrade)</option>
+                                                                   <option value="rail">Rail (New/Upgrade)</option>
+                                                                   <option value="greenway">Greenway/Pathway (New/Upgrade)</option>
+                                                                    <option value="indus">Industrial Building (Eg. Data Center)</option>
+                                                                     <option value="comm">Commercial Building (Eg. Shop)</option>
+                                                                      <option value="resi">Residential Building (Eg. Housing)</option>
+                                                                       <option value="other">Other</option>
+                                                                </select>
+															<br/>
+															<label for="project-description">Describe this project:</label>
+															<br/>
+															<textarea size="250" id="project-description" class="textbox-input-style" placeholder="Describe the project">
+                                                                </textarea>
+															<br/>
+															<label for="info-wish">What kind of information is most important to you?</label>
+															<textarea size="250" id="info-wish" class="textbox-input-style" placeholder="Eg. Length of project or Impact on air pollution ">
+                                                                </textarea>
+															<br/>
+															<label for="marketing" class="marketing-text">I am happy to receive corrospondence from Envirotech about upcoming projects </label>
+															<input type="checkbox" checked id="marketing" class="style-checkbox">
+
+
+
+															<button type="button" class="btn btn-info" data-toggle="modal" data-target="#submitprojectsuccess">Submit</button>
+															<div class="modal fade" id="submitprojectsuccess"
+																tabindex="-1" role="dialog"
+																aria-labelledby="submit-project-success"
+																aria-hidden="true">
+																<div class="modal-dialog" role="document">
+																	<div class="modal-content">
+																		<div class="modal-body text-center w-100">
+																			<h5>
+																				Submission Successful!
+																			</h5>
+																			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+																		</div>
+																	</div>
+																</div>
+															</div>
+
+														</form>
+
+
 													</div>
 													<div class="modal-footer">
-				
-														<button type="button" class="btn btn-primary">Submit</button>
+
+														<i class="fab fa-facebook-square social-icon-form"></i>
+														<i class="fab fa-instagram-square social-icon-form"></i>
+														<i class="fab fa-twitter-square social-icon-form"></i>
 													</div>
 												</div>
+
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
+
 						</div>
 
 
@@ -392,7 +551,7 @@ Submit a Form Here
 										</li>
 									</ul>
 								</p>
-								<a href="#" class="btn btn-primary">Explore Project</a>
+								<a href="projects.html" class="btn btn-primary">Explore Project</a>
 							</div>
 						</div>
 					</div>
@@ -409,7 +568,10 @@ Submit a Form Here
 										</li>
 									</ul>
 								</p>
-								<a href="#" class="btn btn-success">Project Completed</a>
+								<button type="button" class="btn btn-success" data-toggle="modal" data-target="#projectcompleted">
+                                        Project Completed
+                                        </button>
+                        
 							</div>
 						</div>
 					</div>
@@ -426,7 +588,10 @@ Submit a Form Here
 										</li>
 									</ul>
 								</p>
-								<a href="#" class="btn btn-success">Project Completed</a>
+								<button type="button" class="btn btn-success" data-toggle="modal" data-target="#projectcompleted">
+                                        Project Completed
+                                        </button>
+                        
 							</div>
 						</div>
 					</div>
@@ -443,7 +608,10 @@ Submit a Form Here
 										</li>
 									</ul>
 								</p>
-								<a href="#" class="btn btn-success">Project Completed</a>
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#projectcompleted">
+                                        Project Completed
+                                        </button>
+                        
 							</div>
 						</div>
 					</div>
