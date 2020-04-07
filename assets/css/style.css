@@ -68,6 +68,9 @@ font-family: 'Noto Sans', sans-serif;
     color: #506C64;
 }
 
+
+/*-------------------------------------------------- INDEX.HTML -------*/
+
 /*-------------------- Section 1*/
 
 .section-1-style {
@@ -807,3 +810,90 @@ margin-bottom: 10px;
 }
  
  
+/*-------------------------------------------------- PROJECT.HTML -------*/
+
+
+/*---------------- Project header */ 
+.style-project-header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+
+
+
+.bridge-image-header {
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+/*---------------- Bio */ 
+
+.project-image-header {
+    width: 90%;
+     margin: 0 auto;
+ 
+}
+.style-project-headeing {
+    color: #373D3B;
+    margin-bottom: 30px;
+}
+
+.style-info-section {
+
+}
+.style-assessment-card {
+    width: 90%;
+    margin: 0 auto;
+
+
+}
+
+.card-heading-style-proj {
+    padding: 3px;
+    text-align: center;
+    border-bottom: 2px solid rgba(55, 61, 59, 0.404);
+
+}
+
+.style-question-mark {
+    font-size: 1em;
+    color: #00aa66;
+    display: inline-block;
+    padding: 3px;
+}
+
+.row-info {
+    padding-bottom: 15px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border-bottom: 1px solid rgba(61, 63, 62, 0.123);
+    background-color: none;
+}
+
+
+.row-info h6{
+ margin: 0;
+ margin-left: 5px;
+ padding: 0;
+}
+
+.style-arrow-up {
+     font-size: 1em;
+    color: #00aa66;
+    display: block;
+   text-align: center;
+    padding-bottom: 10px;
+}
+
+.style-arrow-down {
+     font-size: 1em;
+    color: red;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
