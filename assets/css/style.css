@@ -840,6 +840,11 @@ margin-bottom: 10px;
     padding: 0;
 }
 
+.mobile-paragraph {
+    font-size: 0.8em !important;
+    width: 100% !important;
+}
+
 }
 
 
