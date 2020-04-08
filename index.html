@@ -94,20 +94,16 @@
 						<h5 class="submit-project-subtitle">Please complete the
 							<span style="color: #00aa66">form</span> below</h5>
 						<form method="post" action="#" id="contact-us-form" class="style-entire-form">
-							<label for="your-name">Your Name</label> <br/>
-							<input type="text" id="name" class="input-style" placeholder="Your Name">
+							<input type="text" id="name" class="input-style" placeholder=" Your Name">
 							<br/>
-							<label for="email">Your Email</label> <br/>
-							<input type="email" id="email-address" class="input-style" placeholder="Your Email Address">
+							<input type="email" id="email-address" class="input-style" placeholder=" Your Email Address">
 							<br/>
-							<label for="pmessage">Your Message</label><br/>
-
-							<textarea size="250" id="message" class="textbox-input-style" placeholder="Describe the project">
-                                                                </textarea>
+							<textarea size="250" id="message" class="textbox-input-style" placeholder=" Your Message"></textarea>
+                                                                
 
 						</form>
 
-						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#submitmessage">Send!</button>
+						<button type="button" class="btn btn-info send-button" data-toggle="modal" data-target="#submitmessage">Send!</button>
 						<div class="modal fade" id="submitmessage" tabindex="-1" role="dialog"
 							aria-labelledby="submit-message" aria-hidden="true">
 							<div class="modal-dialog" role="document">
@@ -127,9 +123,9 @@
 					</div>
 					<div class="modal-footer">
 
-						<i class="fab fa-facebook-square social-icon-form"></i>
-						<i class="fab fa-instagram-square social-icon-form"></i>
-						<i class="fab fa-twitter-square social-icon-form"></i>
+						<a href="#"><i class="fab fa-facebook-square social-icon-form"></i></a>
+						<a href="#"><i class="fab fa-instagram-square social-icon-form"></i></a>
+						<a href="#"><i class="fab fa-twitter-square social-icon-form"></i></a>
 					</div>
 				</div>
 			</div>
@@ -177,20 +173,21 @@
 								it is our duty as citizens to educate ourselves on the impact of these developments
 								so that we can make informed appeals if necessary.
 							</p>
-                            </div>
-                            <div class="col-8 d-none d-sm-block d-lg-none">
-							<div class="card paragraph-card add-shadow">
+						</div>
+						<div class="col-8 paragraph-card d-none d-sm-block d-lg-none ">
+							<div class="card add-shadow text-left">
 								<div class="card-body">
-							    Envirotech is a website dedicated to providing communities around the country
-								with up-to-date, easy to digest information on the environmental impacts of projects
-								happening near them.
-								As our country continues to expand and more and more infrastructure is built,
-								it is our duty as citizens to educate ourselves on the impact of these developments
-								so that we can make informed appeals if necessary.
+									<i class="fas fa-chevron-right heading-icon-style"></i> Envirotech is a website
+									dedicated to providing communities around the country
+									with up-to-date, easy to digest information on the environmental impacts of projects
+									happening near them.
+									As our country continues to expand and more and more infrastructure is built,
+									it is our duty as citizens to educate ourselves on the impact of these developments
+									so that we can make informed appeals if necessary.
 								</div>
-                                </div>
 							</div>
-						
+						</div>
+
 					</div>
 					<!--Info Graphic-->
 					<div class="row no-gutters push-down-2 ">
@@ -205,7 +202,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12 life-project-title">
-									<h6 class="align-center" style="font-size: 0.8em;">
+									<h6 class="align-center d-none d-lg-block" style="font-size: 0.8em;">
 										<span style="color: #506C64;">Hover over</span> each
 										section to learn more
 									</h6>
@@ -362,14 +359,14 @@ Submit a Form Here
 
 														<form method="post" action="#" id="submit-project"
 															class="style-entire-form">
-															<label for="your-name">Your Name:</label>
-															<input type="text" id="your-name" class="input-style" placeholder="Your Name">
+
+															<input type="text" id="your-name" class="input-style" placeholder=" Your Name">
 															<br/>
-															<label for="email">Your Email:</label>
-															<input type="email" id="email" class="input-style" placeholder="Your Email Address">
+
+															<input type="email" id="email" class="input-style" placeholder=" Your Email Address">
 															<br/>
-															<label for="location">Your Location:</label>
-															<input type="text" id="location" class="input-style" placeholder="Your Location">
+
+															<input type="text" id="location" class="input-style" placeholder=" Your Location">
 															<label for="project-type">Which option best describes this project? </label>
 															<select id="project-type" class="select-style">
                                                                 <option value="select-item">Select Project Type</option>
@@ -383,21 +380,18 @@ Submit a Form Here
                                                                        <option value="other">Other</option>
                                                                 </select>
 															<br/>
-															<label for="project-description">Describe this project:</label>
+
+
+															<textarea size="250" id="project-description" class="textbox-input-style" placeholder=" Describe the project"></textarea>
 															<br/>
-															<textarea size="250" id="project-description" class="textbox-input-style" placeholder="Describe the project">
-                                                                </textarea>
-															<br/>
-															<label for="info-wish">What kind of information is most important to you?</label>
-															<textarea size="250" id="info-wish" class="textbox-input-style" placeholder="Eg. Length of project or Impact on air pollution ">
-                                                                </textarea>
-															<br/>
+
+
 															<label for="marketing" class="marketing-text">I am happy to receive corrospondence from Envirotech about upcoming projects </label>
 															<input type="checkbox" checked id="marketing" class="style-checkbox">
 
 
 
-															<button type="button" class="btn btn-info" data-toggle="modal" data-target="#submitprojectsuccess">Submit</button>
+															<button type="button" class="btn btn-info send-button" data-toggle="modal" data-target="#submitprojectsuccess">Submit</button>
 															<div class="modal fade" id="submitprojectsuccess"
 																tabindex="-1" role="dialog"
 																aria-labelledby="submit-project-success"
@@ -421,9 +415,12 @@ Submit a Form Here
 													</div>
 													<div class="modal-footer">
 
-														<i class="fab fa-facebook-square social-icon-form"></i>
-														<i class="fab fa-instagram-square social-icon-form"></i>
-														<i class="fab fa-twitter-square social-icon-form"></i>
+														<a
+															href="#"><i class="fab fa-facebook-square social-icon-form"></i></a>
+														<a
+															href="#"><i class="fab fa-instagram-square social-icon-form"></i></a>
+														<a
+															href="#"><i class="fab fa-twitter-square social-icon-form"></i></a>
 													</div>
 												</div>
 
