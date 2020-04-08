@@ -57,6 +57,14 @@ font-family: 'Noto Sans', sans-serif;
     
 }
 
+.brand-text {
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #373D3B;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
 
 #style-leaf-logo {
     height: 30px;
@@ -725,6 +733,7 @@ color: #fafafa;
 
 @media only screen and (max-width: 1199.98px) {
 
+
 }
 
 
@@ -820,7 +829,7 @@ margin-bottom: 10px;
 
 
 .e-text-container p {
-    font-size: 1em;
+    font-size: 0.75em;
 }
 
 }
@@ -828,6 +837,7 @@ margin-bottom: 10px;
 @media only screen and (max-width: 767.98px) {
 .life-project-title {
     font-size: 1.2em !important;
+    padding: 0;
 }
 
 }
