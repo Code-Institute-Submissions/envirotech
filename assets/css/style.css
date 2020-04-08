@@ -164,6 +164,9 @@ margin-top: 10px;
 
 }
 
+.paragraph-card {
+   margin: 0 auto;
+}
 
 /* Info Graphic */
 .info-graphic-style {
@@ -377,7 +380,7 @@ margin-bottom: 30px;
     border: none;
     width: 100%;
     height: 5%;
-    margin-top: 9.5%;
+    margin-top: 8.5%;
 }
 
 .btn-success {
@@ -385,7 +388,7 @@ margin-bottom: 30px;
     border: none;
     width: 100%;
     height: 5%;
-    margin-top: 9%;
+    margin-top: 7.5%;
 }
 
 
@@ -493,6 +496,7 @@ border-radius: 3px;
     font-size: 3vw;
     font-weight: 600;
     color:#383D3B;
+    padding-bottom: 40px;
 }
 
 
@@ -672,14 +676,20 @@ color: #fafafa;
     font-size: 0.9em;
 }
 
-.social-section{
-color: #fafafa;
-text-align: center;
-margin-top: 20px;
+
+
+.social-icon-style-footer {
+    font-size: 3em;
+    color: white;
+    padding-left: 5px;
 }
 
 
-
+.social-icon-style-footer:hover {
+    
+    color: #00aa66;
+ 
+}
 
 
 /*-------------------- Media Query styles*/
@@ -693,7 +703,7 @@ margin-top: 20px;
 /* md break */
 @media only screen and (max-width: 991px) {
 .main-text-style {
- 
+
     font-size: 15vw;
     text-align: center;
     
@@ -707,23 +717,7 @@ margin-top: 20px;
     margin-right: 10px;
 }
 
-.para-text-style {
-        font-weight: 400;
-        font-size: 2.5vw;
-        color: #fbfbfb;
-        margin-top: 15px;
-        text-align: left;
-        margin-left: 3%;
-    
-        padding-top: 20px;
-        padding-bottom: 20px;
 
-}
-
-.bg-small-screen {
-    background-color: #506C64;
-    margin-top: 10px;
-}
 
 
 .life-project-title {
@@ -776,7 +770,24 @@ margin-bottom: 10px;
     margin-top: 5px;
 }
 
+.section-2-heading-style {
+    font-size: 8vw !important;
+}
 
+
+.pro-des-design {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.style-assessment-card {
+    margin-bottom: 40px !important;
+}
+
+
+.e-text-container p {
+    font-size: 1em;
+}
 
 }
 
@@ -818,6 +829,10 @@ margin-bottom: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
   
+}
+
+.border-bottom-title {
+   border-bottom: 2px solid rgba(55, 61, 59, 0.404);
 }
 
 .notify-button {
