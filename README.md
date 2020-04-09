@@ -85,16 +85,25 @@ Email Alerts - 'Notify about public consultations' button allows the user to sig
 
 Share - Interactive share button allows the users to access the company's social media pages 
 
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ## Features Left to Implement
-Another feature idea
+
+Add functionality to email signup / contact-us form 
+
+User Signup - Allows users to sign up to the website with a username and password
+
+Community Forum - Allow users to discuss projects and ask questions 
 
 ## Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+HTML 5 / CSS 3 
+
+Bootstrap 
+https://getbootstrap.com/
+Used to create responsive containers and mobile nav bar 
+
+FontAwesome 
+https://fontawesome.com/
+Used for icons 
 
 
 ## Testing
