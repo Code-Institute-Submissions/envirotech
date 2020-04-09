@@ -453,14 +453,14 @@ margin-bottom: 30px;
 
 .submit-project-title {
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 10vw;
     color: #373D3B;
     margin-bottom: 0;
 }
 
 .submit-project-subtitle {
     font-weight: 400;
-    font-size: 1.5vw;
+    font-size: 4vw;
     color: #373D3B;
     margin-bottom: 0;
     display: block;
@@ -874,6 +874,18 @@ color: #fafafa;
     margin-right: 10px;
     }
 
+.submit-project-title {
+   
+    font-size: 4vw;
+}
+  
+
+
+.submit-project-subtitle {
+   
+    font-size: 1.5vw;
+  
+}
 
 .life-project-title{
     font-size: 1em;
