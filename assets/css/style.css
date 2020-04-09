@@ -146,18 +146,17 @@ font-family: 'Noto Sans', sans-serif;
 
 .main-text-style {
     font-weight: 700;
-    font-size: 8.5vw;
     color: #373D3B;
     margin-bottom: 0;
-    text-align: right;
+    font-size: 15vw;
+    text-align: center;
     
 }
 
 .sub-text-style {
-    font-weight: 400;
-    font-size: 1.5vw;
-    color: #373D3B;
-    margin-top: -10px;
+    text-align: center;
+    font-size: 3vw;
+    margin-top: -5px;
     margin-right: 10px;
 }
 
@@ -173,6 +172,13 @@ font-family: 'Noto Sans', sans-serif;
    margin: 0 auto;
    margin-top: 40px;
    margin-bottom: 40px;
+}
+
+
+.life-project-title {
+    
+    font-size: 1.2em !important;
+    padding: 0;
 }
 
 
@@ -203,10 +209,11 @@ font-family: 'Noto Sans', sans-serif;
 
 .border-info-graphic {
     border: rgba(56, 61, 59, 0.61) 1px solid;
-    padding: 10px;
     min-width: 100%;
-    margin: 5px;
     background-color: #E7EAE2;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 5px;
 }
 
 
@@ -214,6 +221,12 @@ font-family: 'Noto Sans', sans-serif;
     padding-left: 8px;
        padding-right: 8px;
      color: #00aa66;
+}
+
+
+.mobile-paragraph {
+    font-size: 0.8em !important;
+    width: 100% !important;
 }
 
 /* -------------------- Hover text */
@@ -294,16 +307,20 @@ font-size: 1em;
 /* -------------------------------- Cards */ 
 
 .style-card-section {
-    padding-right:  2.5% !important;
+    padding-right: 0;
     margin-top: 5%;
+ 
 }
 
 
 
 .style-card {
-margin-left: auto !important;
-margin-right: 1% !important;
+
+margin-left:auto !important;
+margin-right: auto !important;
 display: flex;
+margin-top: 10px;
+margin-bottom: 10px;
 
 }
 
@@ -321,9 +338,12 @@ display: flex;
 }
 
 .style-card-2 {
-margin-left: 1% !important;
+
+margin-left:auto !important;
 margin-right: auto !important;
 display: flex;
+margin-top: 10px;
+margin-bottom: 10px;
 
 }
 
@@ -363,7 +383,9 @@ margin-bottom: 30px;
 
 
 .project-list {
-    font-size: 1em;
+  font-size: 1.5em;
+   text-align: center;
+  
     color: #383D3B;
 }
 
@@ -379,7 +401,7 @@ margin-bottom: 30px;
     border: none;
     width: 100%;
     height: 5%;
-    margin-top: 8.5%;
+    margin-top: 5px;
 }
 
 .btn-success {
@@ -387,7 +409,7 @@ margin-bottom: 30px;
     border: none;
     width: 100%;
     height: 5%;
-    margin-top: 7.5%;
+    margin-top: 5px;
 }
 
 .send-button {
@@ -514,7 +536,7 @@ border-radius: 3px;
 .section-2-heading-style {
     padding: 20px;
     text-align: center;
-    font-size: 3vw;
+    font-size: 8vw !important;
     font-weight: 600;
     color:#383D3B;
     padding-bottom: 40px;
@@ -652,6 +674,8 @@ margin-top : 5px;
 padding-left: 85px;
 padding-top: 20px;
 padding-right: 20px;
+font-size: 0.75em;
+
 
 }
  
@@ -740,8 +764,8 @@ color: #fafafa;
 }
 
 .pro-des-design {
-    margin-top: auto;
-    margin-bottom: auto;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .bridge-image-header {
@@ -785,7 +809,7 @@ color: #fafafa;
 .style-assessment-card {
     width: 90%;
     margin: 0 auto;
-
+    margin-bottom: 40px !important;
 
 }
 
@@ -834,118 +858,98 @@ color: #fafafa;
 }
 
 
-
-
-
 /*----------------------------------------------- Media Query styles*/
 
-
-/* md break */
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 991px) {
 .main-text-style {
-
-    font-size: 15vw;
-    text-align: center;
-    
-}
-
+    font-size: 8.5vw;
+    text-align: right;
+    }
 
 .sub-text-style {
-    text-align: center;
-    font-size: 3vw;
-    margin-top: -5px;
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: #373D3B;
+    margin-top: -10px;
     margin-right: 10px;
+    }
+
+
+.life-project-title{
+    font-size: 1em;
 }
-
-
-
-
-.life-project-title {
-    font-size: 3vw;
-}
-
 
 .border-info-graphic {
     padding: 10px;
-    margin: 0;
- margin-bottom: 5px;
+    margin: 5px;
+    margin-bottom: 0;
 }
 
 .style-card-section {
-    padding-right: 0;
+   padding-right:  2.5% !important;
     margin-top: 5%;
 }
 
 
-
 .style-card {
-margin-left:auto !important;
-margin-right: auto !important;
+margin-left: auto !important;
+margin-right: 1% !important;
 display: flex;
-margin-top: 10px;
-margin-bottom: 10px;
+margin-top: 0;
+margin-bottom: 0;
 
 }
 
 
-
-
 .style-card-2 {
-margin-left:auto !important;
+margin-left: 1% !important;
 margin-right: auto !important;
 display: flex;
-margin-top: 10px;
-margin-bottom: 10px;
+margin-top: 0;
+margin-bottom: 0;
 
 }
 
 .project-list {
-    font-size: 1.5em;
-   text-align: center;
+    font-size: 1em;
 }
-
 
 
 .btn-success {
-    margin-top: 5px;
+    margin-top: 7.5%;
 }
+
 
 .btn-primary {
-    margin-top: 5px;
+    margin-top: 8.5%;
 }
-
-
 
 .section-2-heading-style {
-    font-size: 8vw !important;
+    font-size: 3vw !important;
 }
-
 
 .pro-des-design {
-    padding-top: 40px;
-    text-align: center;
+  margin-top: auto;
+   margin-bottom: auto;
 }
 
+
 .style-assessment-card {
-    margin-bottom: 40px !important;
+    margin-bottom: 0;
 }
 
 
 .e-text-container p {
-    font-size: 0.75em;
+    font-size: 1em;
 }
 
 }
 
-@media only screen and (max-width: 767.98px) {
+
+
+@media only screen and (min-width: 767.98px) {
 .life-project-title {
-    font-size: 1.2em !important;
-    padding: 0;
-}
-
-.mobile-paragraph {
-    font-size: 0.8em !important;
-    width: 100% !important;
+  font-size: 3vw;
 }
 
 }
