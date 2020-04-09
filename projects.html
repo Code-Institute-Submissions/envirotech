@@ -40,16 +40,16 @@
 		class="navbar sticky-top navbar-light bg-transparent navbar-expand-md navbar-fixed-top navbar-trans top-background">
 		<a class="navbar-brand" href="index.html">
 			<i class="fas fa-leaf brand-logo-style"></i>
-            <h5 class="brand-text">
-							Env<span style="color: #00aa66">i</span>rotech
-						</h5>
+			<h5 class="brand-text">
+				Env<span style="color: #00aa66">i</span>rotech
+			</h5>
 		</a>
 		<!--Menu button for mobile-->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
 		<!--Nav Items-->
-				<div class="collapse navbar-collapse" id="navbarNav">
+		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
 					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -76,7 +76,7 @@
 
 	<section>
 		<!--Contact Us Pop Up-->
-				<div class="modal fade" id="contact-us" tabindex="-1" role="dialog" aria-labelledby="contact-us"
+		<div class="modal fade" id="contact-us" tabindex="-1" role="dialog" aria-labelledby="contact-us"
 			aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
@@ -102,7 +102,7 @@
 							<input type="email" id="email-address" class="input-style" placeholder=" Your Email Address">
 							<br/>
 							<textarea size="250" id="message" class="textbox-input-style" placeholder=" Your Message"></textarea>
-                                                                
+
 
 						</form>
 
@@ -147,7 +147,9 @@
 
 						<div class="card">
 							<div class="card-body">
-								<h5 class="card-title"><i class="fas fa-chevron-right heading-icon-style"></i><span class="border-bottom-title">Dublin 12 Bridge Project</span></h5>
+								<h5 class="card-title">
+									<i class="fas fa-chevron-right heading-icon-style"></i><span class="border-bottom-title">Dublin 12 Bridge Project</span>
+								</h5>
 								<h6 class="card-text"><span style="color: green">Dublin county council</span>, in
 									partnership with <span style="color: green">Trust Engineering Ltd</span>, have
 									proposed the building
@@ -157,21 +159,37 @@
 									below. The initial public consultations will take place on June 18th 2020. You can
 									get notified of
 									of times and locations by signing up below.</h6>
-								<a href="#" class="btn btn-primary notify-button">Notify me about public
+								<a href="#" class="btn btn-primary notify-button" data-toggle="modal"
+									data-target="#addedtoemail">Notify me about public
 									consultations</a>
 							</div>
 						</div>
-
-						<!--                
-						<h6><span style="color: green">Dublin county council</span>, in partnership with <span style="color: green">Trust Engineering Ltd</span>, have proposed the building
-							of a bridge over water in the Dublin 12 area. This project is expected to begin construction in December 2020. They have 
-                            carried out an initial environmental assessment; the details of which are detailed below. The initial public consultations will take place on June 18th 2020. You can get notified of 
-                            of times and locations by signing up below.</h6>
-                            <button type="button" class="btn btn-info notify-button"> Notify me about public consultation</button> -->
 					</div>
 
 				</div>
 			</div>
+			<!--Added to email popup-->
+			<div class="modal fade" id="addedtoemail" tabindex="-1" role="dialog" aria-labelledby="addedtoemail"
+				aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body text-center w-100">
+							<h6>You have successfully been added to the email list for this project. You will receieve
+								information regarding
+								public consultation times and dates.</h6>
+							<br/>
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+						<div class="modal-footer">
+
+							<a href="#"><i class="fab fa-facebook-square social-icon-form"></i></a>
+							<a href="#"><i class="fab fa-instagram-square social-icon-form"></i></a>
+							<a href="#"><i class="fab fa-twitter-square social-icon-form"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<!--Bio-diversity-->
 			<div class="container style-info-section">
 				<div class="row no-gutters">
@@ -186,7 +204,7 @@
 							<i class="fas fa-times project-icon-style"></i>
 							<div class="card-body remove-body-padding">
 
-									<h5 class="card-title card-heading-style-proj">Construction
+								<h5 class="card-title card-heading-style-proj">Construction
 									(Unmitigated)<i class="fas fa-question-circle style-question-mark"></i></h5>
 								<div class="row no-gutters">
 									<div class="col-12 row-info">
@@ -680,7 +698,7 @@
 						</ul>
 					</div>
 
-				<div class="col-sm-6 social-section text-right">
+					<div class="col-sm-6 social-section text-right">
 						<h4>Join the conversation</h4>
 						<a href="#"><i class="fab fa-facebook-square social-icon-style-footer"></i></a>
 						<a href="#"><i class="fab fa-instagram-square social-icon-style-footer"></i></a>
