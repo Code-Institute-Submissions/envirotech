@@ -175,6 +175,7 @@ font-family: 'Noto Sans', sans-serif;
    margin-bottom: 40px;
 }
 
+
 /* Info Graphic */
 .info-graphic-style {
     display: inline-block;
@@ -215,7 +216,7 @@ font-family: 'Noto Sans', sans-serif;
      color: #00aa66;
 }
 
-/* ---- Hover text */
+/* -------------------- Hover text */
 
 .design-info h6 {
     display: none;
@@ -239,16 +240,7 @@ background-color: #383D3B;
 }
 
 
-
-
-/* ----- Hover Effects */ 
-
-
-
-
-
-
-/* Right section of hero style */
+/*----------------------------- Right section of hero style */
 
 .project-image-container {
     height: 70%;
@@ -299,7 +291,7 @@ font-size: 1em;
 }
 
 
-/* -------- Cards */ 
+/* -------------------------------- Cards */ 
 
 .style-card-section {
     padding-right:  2.5% !important;
@@ -434,7 +426,7 @@ margin-bottom: 30px;
 }
 
 
-/* Submit project form */
+/*----------------------------- Submit project form */
 
 
 .submit-project-title {
@@ -510,7 +502,7 @@ border-radius: 3px;
 }
 
 
-/*-------------------- Section 2*/
+/*--------------------------------------- Section 2*/
 
 .section-2-style {
     padding: 0;
@@ -551,7 +543,7 @@ border-radius: 3px;
 }
 
 
-/* Card */ 
+/*------------------------------- Card */ 
 
 .project-icon-style {
     font-size: 3em;
@@ -569,7 +561,7 @@ border-radius: 3px;
 
 
 
-/*-------------------- Section 3*/
+/*-------------------------------------- Section 3*/
 .section-3-style {
     background-color: #fbfbfb;
     padding: 30px;
@@ -580,7 +572,7 @@ border-radius: 3px;
     margin-top: 10px;
 }
 
-/*-------------------- Section 4*/
+/*--------------------------------------- Section 4*/
 
 .section-4-style {
     padding: 0;
@@ -613,8 +605,8 @@ margin-top : 5px;
 
 }
 
-/* Experiment */
 
+/*-------------- Quotes */
 
 .section-4-heading-style {
     padding: 20px;
@@ -673,7 +665,7 @@ margin-top: 5%;
 
 
 
-/*--------------------Footer*/
+/*-------------------- Footer*/
 
 .footer-style {
     background-color: #506C64;
@@ -725,13 +717,127 @@ color: #fafafa;
 }
 
 
-/*-------------------- Media Query styles*/
+
+/*-------------------------------------------------- PROJECT.HTML -------*/
 
 
-@media only screen and (max-width: 1199.98px) {
+/*---------------- Project header */ 
+.style-project-header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+
+.border-bottom-title {
+   border-bottom: 2px solid rgba(55, 61, 59, 0.404);
+}
+
+.notify-button {
+    margin: 0 !important;
+    background-color: #2B4570 !important;
+    border: 0 !important;
+
+}
+
+.pro-des-design {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bridge-image-header {
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-shadow {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.style-question-mark-big{
+    font-size: 2em;
+    color: #00aa66;
+    display: inline-block;
+    padding: 3px;
+}
+
+
+
+/*--------------------------- Info section */ 
+
+
+
+.project-image-header {
+    width: 90%;
+     margin: 0 auto;
+ 
+}
+.style-project-headeing {
+    color: #373D3B;
+    margin-bottom: 30px;
+}
+
+.style-info-section {
+    margin-bottom: 50px;
+
+}
+.style-assessment-card {
+    width: 90%;
+    margin: 0 auto;
 
 
 }
+
+.card-heading-style-proj {
+    padding: 3px;
+    border-bottom: 2px solid rgba(55, 61, 59, 0.404);
+    text-align: center;
+
+}
+
+.style-question-mark {
+    font-size: 1em;
+    color: #00aa66;
+    padding: 3px;
+}
+
+.row-info {
+    padding-bottom: 15px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border-bottom: 1px solid rgba(61, 63, 62, 0.123);
+    background-color: none;
+}
+
+
+.row-info h6{
+ margin: 0;
+ margin-left: 5px;
+ padding: 0;
+}
+
+.style-arrow-up {
+     font-size: 1em;
+    color: #00aa66;
+    display: block;
+   text-align: center;
+    padding-bottom: 10px;
+}
+
+.style-arrow-down {
+     font-size: 1em;
+    color: red;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+/*----------------------------------------------- Media Query styles*/
 
 
 /* md break */
@@ -845,7 +951,6 @@ margin-bottom: 10px;
 }
 
 
-
 /*------------ Hover Animations */
 
 .social-tag-style:hover {
@@ -867,124 +972,4 @@ margin-bottom: 10px;
 }
  
  
-/*-------------------------------------------------- PROJECT.HTML -------*/
-
-
-/*---------------- Project header */ 
-.style-project-header {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  
-}
-
-.border-bottom-title {
-   border-bottom: 2px solid rgba(55, 61, 59, 0.404);
-}
-
-.notify-button {
-    margin: 0 !important;
-    background-color: #2B4570 !important;
-    border: 0 !important;
-
-}
-
-.pro-des-design {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.bridge-image-header {
-    width: 100%;
-    border-radius: 2px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.add-shadow {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-.style-question-mark-big{
-    font-size: 2em;
-    color: #00aa66;
-    display: inline-block;
-    padding: 3px;
-}
-
-
-
-/*---------------- Bio */ 
-
-
-
-.project-image-header {
-    width: 90%;
-     margin: 0 auto;
- 
-}
-.style-project-headeing {
-    color: #373D3B;
-    margin-bottom: 30px;
-}
-
-.style-info-section {
-    margin-bottom: 50px;
-
-}
-.style-assessment-card {
-    width: 90%;
-    margin: 0 auto;
-
-
-}
-
-.card-heading-style-proj {
-    padding: 3px;
-    border-bottom: 2px solid rgba(55, 61, 59, 0.404);
-    text-align: center;
-
-}
-
-.style-question-mark {
-    font-size: 1em;
-    color: #00aa66;
-    padding: 3px;
-}
-
-.row-info {
-    padding-bottom: 15px;
-    margin-bottom: 8px;
-    margin-top: 8px;
-    border-bottom: 1px solid rgba(61, 63, 62, 0.123);
-    background-color: none;
-}
-
-
-.row-info h6{
- margin: 0;
- margin-left: 5px;
- padding: 0;
-}
-
-.style-arrow-up {
-     font-size: 1em;
-    color: #00aa66;
-    display: block;
-   text-align: center;
-    padding-bottom: 10px;
-}
-
-.style-arrow-down {
-     font-size: 1em;
-    color: red;
-    display: block;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-
-
-
-
-
 
