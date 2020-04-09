@@ -144,7 +144,7 @@
 									get notified of
 									of times and locations by signing up below.</h6>
 								<a href="#" class="btn btn-primary notify-button" data-toggle="modal"
-									data-target="#addedtoemail">Notify me about public
+									data-target="#addedtomaillist">Notify me about public
 									consultations</a>
 							</div>
 						</div>
@@ -152,15 +152,69 @@
 
 				</div>
 			</div>
+
+            		<div class="modal fade" id="addedtomaillist" tabindex="-1" role="dialog" aria-labelledby="contact-us"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header text-center">
+						<h5 class="submit-project-title modal-title w-100">
+							Env<span style="color: #00aa66">i</span>rotech
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                         <span aria-hidden="true">&times;</span>
+                                                         </button>
+					</div>
+					<div class="modal-body">
+						<h5 class="submit-project-subtitle">Please complete the
+							<span style="color: #00aa66">form</span> below</h5>
+						<form method="post" action="#" id="mail-list" class="style-entire-form">
+							
+							<input type="email" id="email-address-mail-list" class="input-style" placeholder=" Your Email Address">
+							<br/>
+							
+						</form>
+
+						<button type="send" class="btn btn-info send-button" data-toggle="modal" data-target="#addedtomail">Get Notifications</button>
+						<div class="modal fade" id="addedtomail" tabindex="-1" role="dialog"
+							aria-labelledby="addedtomail" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-body text-center w-100">
+										<h6>You have successfully been added to the email list for this project. You will receieve
+								information regarding
+								public consultation times and dates.</h6>
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+					<div class="modal-footer">
+
+						<a href="#"><i class="fab fa-facebook-square social-icon-form"></i></a>
+						<a href="#"><i class="fab fa-instagram-square social-icon-form"></i></a>
+						<a href="#"><i class="fab fa-twitter-square social-icon-form"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
 			<!--Added to email popup-->
 			<div class="modal fade" id="addedtoemail" tabindex="-1" role="dialog" aria-labelledby="addedtoemail"
 				aria-hidden="true">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-body text-center w-100">
-							<h6>You have successfully been added to the email list for this project. You will receieve
-								information regarding
-								public consultation times and dates.</h6>
+							
 							<br/>
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						</div>
