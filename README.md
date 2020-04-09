@@ -88,6 +88,8 @@ Share - Interactive share button allows the users to access the company's social
 
 ## Features Left to Implement
 
+Form validation using Javascript
+
 Add functionality to email signup / contact-us form 
 
 User Signup - Allows users to sign up to the website with a username and password

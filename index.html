@@ -85,17 +85,16 @@
 					<div class="modal-body">
 						<h5 class="submit-project-subtitle">Please complete the
 							<span style="color: #00aa66">form</span> below</h5>
-						<form method="post" action="#" id="contact-us-form" class="style-entire-form">
+						<form id="contact-us-form" class="style-entire-form">
 							<input type="text" id="name" class="input-style" placeholder=" Your Name">
 							<br/>
 							<input type="email" id="email-address" class="input-style" placeholder=" Your Email Address">
 							<br/>
 							<textarea size="250" id="message" class="textbox-input-style" placeholder=" Your Message"></textarea>
-
+                            <button type="submit" class="btn btn-info send-button" data-toggle="modal" data-target="#submitmessage">Send!</button>
 
 						</form>
 
-						<button type="button" class="btn btn-info send-button" data-toggle="modal" data-target="#submitmessage">Send!</button>
 						<div class="modal fade" id="submitmessage" tabindex="-1" role="dialog"
 							aria-labelledby="submit-message" aria-hidden="true">
 							<div class="modal-dialog" role="document">
