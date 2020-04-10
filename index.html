@@ -67,7 +67,7 @@
 
 	<section>
 		<!--Contact Us Pop Up-->
-		<div class="modal fade" id="contact-us" tabindex="-1" role="dialog" aria-labelledby="contact-us"
+				<div class="modal fade" id="contact-us" tabindex="-1" role="dialog" aria-labelledby="contact-us"
 			aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
@@ -75,41 +75,21 @@
 						<h5 class="submit-project-title modal-title w-100">
 							Env<span style="color: #00aa66">i</span>rotech
 						</h5>
-
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                          <span aria-hidden="true">&times;</span>
                                                          </button>
-
-
 					</div>
 					<div class="modal-body">
 						<h5 class="submit-project-subtitle">Please complete the
 							<span style="color: #00aa66">form</span> below</h5>
-						<form id="contact-us-form" class="style-entire-form">
-							<input type="text" id="name" class="input-style" placeholder=" Your Name">
+						    <form id="contact-us-form" class="style-entire-form">
+							<input type="text" id="name" class="input-style form-control" placeholder=" Your Name" required>
 							<br/>
-							<input type="email" id="email-address" class="input-style" placeholder=" Your Email Address">
+							<input type="email" id="email-address" class="input-style" placeholder=" Your Email Address" required>
 							<br/>
-							<textarea size="250" id="message" class="textbox-input-style" placeholder=" Your Message"></textarea>
-                            <button type="submit" class="btn btn-info send-button" data-toggle="modal" data-target="#submitmessage">Send!</button>
-
+							<textarea size="250" id="message" class="textbox-input-style" placeholder=" Your Message" required></textarea>
+                            <button type="submit" class="btn btn-info send-button">Send!</button>
 						</form>
-
-						<div class="modal fade" id="submitmessage" tabindex="-1" role="dialog"
-							aria-labelledby="submit-message" aria-hidden="true">
-							<div class="modal-dialog" role="document">
-								<div class="modal-content">
-									<div class="modal-body text-center w-100">
-										<h5>
-											We'll be in touch soon!
-										</h5>
-										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
 
 					</div>
 					<div class="modal-footer">
@@ -348,16 +328,16 @@ Submit a Form Here
 														<h5 class="submit-project-subtitle">Please complete the
 															<span style="color: #00aa66">form</span> below</h5>
 
-														<form method="post" action="#" id="submit-project"
+														<form id="submit-project"
 															class="style-entire-form">
 
-															<input type="text" id="your-name" class="input-style" placeholder=" Your Name">
+															<input type="text" id="your-name" class="input-style" placeholder=" Your Name" required>
 															<br/>
 
-															<input type="email" id="email" class="input-style" placeholder=" Your Email Address">
+															<input type="email" id="email" class="input-style" placeholder=" Your Email Address" required>
 															<br/>
 
-															<input type="text" id="location" class="input-style" placeholder=" Your Location">
+															<input type="text" id="location" class="input-style" placeholder=" Your Location" required>
 															<label for="project-type">Which option best describes this project? </label>
 															<select id="project-type" class="select-style">
                                                                 <option value="select-item">Select Project Type</option>
@@ -373,32 +353,13 @@ Submit a Form Here
 															<br/>
 
 
-															<textarea size="250" id="project-description" class="textbox-input-style" placeholder=" Describe the project"></textarea>
+															<textarea size="250" id="project-description" class="textbox-input-style" placeholder=" Describe the project" required></textarea>
 															<br/>
 
 
 															<label for="marketing" class="marketing-text">I am happy to receive corrospondence from Envirotech about upcoming projects </label>
 															<input type="checkbox" checked id="marketing" class="style-checkbox">
-
-
-
-															<button type="button" class="btn btn-info send-button" data-toggle="modal" data-target="#submitprojectsuccess">Submit</button>
-															<div class="modal fade" id="submitprojectsuccess"
-																tabindex="-1" role="dialog"
-																aria-labelledby="submit-project-success"
-																aria-hidden="true">
-																<div class="modal-dialog" role="document">
-																	<div class="modal-content">
-																		<div class="modal-body text-center w-100">
-																			<h5>
-																				Submission Successful!
-																			</h5>
-																			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-																		</div>
-																	</div>
-																</div>
-															</div>
+															<button type="submit" class="btn btn-info send-button">Send!</button>
 
 														</form>
 

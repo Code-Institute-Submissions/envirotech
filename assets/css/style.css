@@ -385,7 +385,6 @@ margin-bottom: 30px;
 .project-list {
   font-size: 1.5em;
    text-align: center;
-  
     color: #383D3B;
 }
 
@@ -909,6 +908,7 @@ margin-right: 1% !important;
 display: flex;
 margin-top: 0;
 margin-bottom: 0;
+min-height: 350px;
 
 }
 
@@ -919,21 +919,25 @@ margin-right: auto !important;
 display: flex;
 margin-top: 0;
 margin-bottom: 0;
+min-height: 350px;
 
 }
 
 .project-list {
     font-size: 1em;
+    text-align: left;
 }
 
 
 .btn-success {
-    margin-top: 7.5%;
+    margin-top: 5%;
+ 
 }
 
 
 .btn-primary {
-    margin-top: 8.5%;
+    margin-top: 5%;
+   
 }
 
 .section-2-heading-style {
@@ -941,8 +945,7 @@ margin-bottom: 0;
 }
 
 .pro-des-design {
-  margin-top: auto;
-   margin-bottom: auto;
+  padding: 0;
 }
 
 

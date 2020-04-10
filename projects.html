@@ -81,30 +81,14 @@
 					<div class="modal-body">
 						<h5 class="submit-project-subtitle">Please complete the
 							<span style="color: #00aa66">form</span> below</h5>
-						<form method="post" action="#" id="contact-us-form" class="style-entire-form">
-							<input type="text" id="name" class="input-style" placeholder=" Your Name">
+						    <form id="contact-us-form" class="style-entire-form">
+							<input type="text" id="name" class="input-style form-control" placeholder=" Your Name" required>
 							<br/>
-							<input type="email" id="email-address" class="input-style" placeholder=" Your Email Address">
+							<input type="email" id="email-address" class="input-style" placeholder=" Your Email Address" required>
 							<br/>
-							<textarea size="250" id="message" class="textbox-input-style" placeholder=" Your Message"></textarea>
+							<textarea size="250" id="message" class="textbox-input-style" placeholder=" Your Message" required></textarea>
+                            <button type="submit" class="btn btn-info send-button">Send!</button>
 						</form>
-
-						<button type="button" class="btn btn-info send-button" data-toggle="modal" data-target="#submitmessage">Send!</button>
-						<div class="modal fade" id="submitmessage" tabindex="-1" role="dialog"
-							aria-labelledby="submit-message" aria-hidden="true">
-							<div class="modal-dialog" role="document">
-								<div class="modal-content">
-									<div class="modal-body text-center w-100">
-										<h5>
-											We'll be in touch soon!
-										</h5>
-										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
 
 					</div>
 					<div class="modal-footer">
@@ -153,55 +137,40 @@
 				</div>
 			</div>
 
-            		<div class="modal fade" id="addedtomaillist" tabindex="-1" role="dialog" aria-labelledby="contact-us"
-			aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header text-center">
-						<h5 class="submit-project-title modal-title w-100">
-							Env<span style="color: #00aa66">i</span>rotech
-						</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<div class="modal fade" id="addedtomaillist" tabindex="-1" role="dialog" aria-labelledby="contact-us"
+				aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header text-center">
+							<h5 class="submit-project-title modal-title w-100">
+								Env<span style="color: #00aa66">i</span>rotech
+							</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                          <span aria-hidden="true">&times;</span>
                                                          </button>
-					</div>
-					<div class="modal-body">
-						<form method="post" action="#" id="mail-list" class="style-entire-form">
-							<h5 class="submit-project-subtitle">Please complete the
-							<span style="color: #00aa66">form</span> below</h5>
-                            <br/>
-							<input type="email" id="email-address-mail-list" class="input-style" placeholder=" Your Email Address">
-							<br/>
-							
+						</div>
+						<div class="modal-body">
+							<form id="mail-list" class="style-entire-form">
+								<h5 class="submit-project-subtitle">Please complete the
+									<span style="color: #00aa66">form</span> below</h5>
+								<br/>
+								<input type="email" id="email-address-mail-list" class="input-style" placeholder=" Your Email Address" required>
+								<br/>
+								<button type="submit" class="btn btn-info send-button">Get Notifications</button>
+
 						</form>
 
-						<button type="send" class="btn btn-info send-button" data-toggle="modal" data-target="#addedtomail">Get Notifications</button>
-						<div class="modal fade" id="addedtomail" tabindex="-1" role="dialog"
-							aria-labelledby="addedtomail" aria-hidden="true">
-							<div class="modal-dialog" role="document">
-								<div class="modal-content">
-									<div class="modal-body text-center w-100">
-										<h6>You have successfully been added to the email list for this project. You will receieve
-								information regarding
-								public consultation times and dates.</h6>
-										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-									</div>
-								</div>
-							</div>
 						</div>
+						<div class="modal-footer">
 
-
-					</div>
-					<div class="modal-footer">
-
-						<a href="#"><i class="fab fa-facebook-square social-icon-form"></i></a>
-						<a href="#"><i class="fab fa-instagram-square social-icon-form"></i></a>
-						<a href="#"><i class="fab fa-twitter-square social-icon-form"></i></a>
+							<a href="#"><i class="fab fa-facebook-square social-icon-form"></i></a>
+							<a href="#"><i class="fab fa-instagram-square social-icon-form"></i></a>
+							<a href="#"><i class="fab fa-twitter-square social-icon-form"></i></a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
 
 
@@ -214,7 +183,7 @@
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-body text-center w-100">
-							
+
 							<br/>
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						</div>
@@ -243,7 +212,7 @@
 							<div class="card-body remove-body-padding">
 
 								<h5 class="card-title card-heading-style-proj">Construction
-									(Unmitigated)<i class="fas fa-question-circle style-question-mark"></i></h5>
+									(Unmitigated)<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the potential impacts the could occur if no measures are put in place."></i></h5>
 								<div class="row no-gutters">
 									<div class="col-12 row-info">
 										<h6>Overall Impact: <span style="color: orange">Moderate</span></h6>
@@ -271,7 +240,7 @@
 							<i class="fas fa-check project-icon-style"></i>
 							<div class="card-body remove-body-padding ">
 								<h5 class="card-title card-heading-style-proj">Construction
-									(Mitigated)<i class="fas fa-question-circle style-question-mark"></i></h5>
+									(Mitigated)<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the measures put in place to reduce potential impacts."></i></h5>
 								<div class="row no-gutters">
 									<div class="col-12 row-info">
 										<h6>Overall Impact: <span style="color: #00AA65">Slight</span></h6>
@@ -303,7 +272,7 @@
 							<i class="fas fa-globe-europe project-icon-style"></i>
 							<div class="card-body remove-body-padding ">
 								<h5 class="card-title card-heading-style-proj">
-									Operation<i class="fas fa-question-circle style-question-mark"></i></h5>
+									Operation<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the potential long-term impacts after construction has been completed."></i></h5>
 								<div class="row no-gutters">
 									<div class="col-12 row-info">
 										<h6>Overall Impact: <span style="color: #00AA65">Slight</span></h6>
@@ -345,7 +314,7 @@
 							<i class="fas fa-times project-icon-style"></i>
 							<div class="card-body remove-body-padding">
 								<h5 class="card-title card-heading-style-proj">Construction
-									(Unmitigated)<i class="fas fa-question-circle style-question-mark"></i></h5>
+									(Unmitigated)<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the potential impacts the could occur if no measures are put in place."></i></h5>
 
 								<div class="row no-gutters">
 									<div class="col-12 row-info">
@@ -368,7 +337,7 @@
 							<i class="fas fa-check project-icon-style"></i>
 							<div class="card-body remove-body-padding ">
 								<h5 class="card-title card-heading-style-proj">Construction
-									(Mitigated)<i class="fas fa-question-circle style-question-mark"></i></h5>
+									(Mitigated)<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the measures put in place to reduce potential impacts."></i></h5>
 								<div class="row no-gutters">
 									<div class="col-12 row-info">
 										<h6>Overall Impact: <span style="color: #00AA65">Slight</span></h6>
@@ -394,7 +363,7 @@
 							<i class="fas fa-globe-europe project-icon-style"></i>
 							<div class="card-body remove-body-padding ">
 								<h5 class="card-title card-heading-style-proj">
-									Operation<i class="fas fa-question-circle style-question-mark"></i></h5>
+									Operation<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the potential long-term impacts after construction has been completed."></i></h5>
 								<div class="row no-gutters">
 									<div class="col-12 row-info">
 										<h6>Overall Impact: <span style="color: #00AA65">Slight</span></h6>
@@ -430,7 +399,7 @@
 							<i class="fas fa-times project-icon-style"></i>
 							<div class="card-body remove-body-padding">
 								<h5 class="card-title card-heading-style-proj">Construction
-									(Unmitigated)<i class="fas fa-question-circle style-question-mark"></i></h5>
+									(Unmitigated)<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the potential impacts the could occur if no measures are put in place."></i></h5>
 
 								<div class="row no-gutters">
 									<div class="col-12 row-info">
@@ -457,7 +426,7 @@
 							<i class="fas fa-check project-icon-style"></i>
 							<div class="card-body remove-body-padding ">
 								<h5 class="card-title card-heading-style-proj">Construction
-									(Mitigated)<i class="fas fa-question-circle style-question-mark"></i></h5>
+									(Mitigated)<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the measures put in place to reduce potential impacts."></i></h5>
 								<div class="row no-gutters">
 									<div class="col-12 row-info">
 										<h6>Overall Impact: <span style="color: orange">Moderate</span></h6>
@@ -481,7 +450,7 @@
 							<i class="fas fa-globe-europe project-icon-style"></i>
 							<div class="card-body remove-body-padding ">
 								<h5 class="card-title card-heading-style-proj">
-									Operation<i class="fas fa-question-circle style-question-mark"></i></h5>
+									Operation<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the potential long-term impacts after construction has been completed."></i></h5>
 								<div class="row no-gutters">
 									<div class="col-12 row-info">
 										<h6>Overall Impact: <span style="color: #00AA65">Slight</span></h6>
@@ -529,7 +498,7 @@
 								<i class="fas fa-times project-icon-style"></i>
 								<div class="card-body remove-body-padding">
 									<h5 class="card-title card-heading-style-proj">Construction
-										(Unmitigated)<i class="fas fa-question-circle style-question-mark"></i></h5>
+										(Unmitigated)<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the potential impacts the could occur if no measures are put in place."></i></h5>
 
 									<div class="row no-gutters">
 										<div class="col-12 row-info">
@@ -552,7 +521,7 @@
 								<i class="fas fa-check project-icon-style"></i>
 								<div class="card-body remove-body-padding ">
 									<h5 class="card-title card-heading-style-proj">Construction
-										(Mitigated)<i class="fas fa-question-circle style-question-mark"></i></h5>
+										(Mitigated)<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the measures put in place to reduce potential impacts."></i></h5>
 									<div class="row no-gutters">
 										<div class="col-12 row-info">
 											<h6>Overall Impact: <span style="color: #00AA65">Slight</span></h6>
@@ -581,7 +550,7 @@
 								<i class="fas fa-globe-europe project-icon-style"></i>
 								<div class="card-body remove-body-padding ">
 									<h5 class="card-title card-heading-style-proj">
-										Operation<i class="fas fa-question-circle style-question-mark"></i></h5>
+										Operation<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the potential long-term impacts after construction has been completed."></i></h5>
 									<div class="row no-gutters">
 										<div class="col-12 row-info">
 											<h6>Overall Impact: <span style="color: #00AA65">None</span></h6>
@@ -621,7 +590,7 @@
 								<i class="fas fa-times project-icon-style"></i>
 								<div class="card-body remove-body-padding">
 									<h5 class="card-title card-heading-style-proj">Construction
-										(Unmitigated)<i class="fas fa-question-circle style-question-mark"></i></h5>
+										(Unmitigated)<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the potential impacts the could occur if no measures are put in place."></i></h5>
 
 									<div class="row no-gutters">
 										<div class="col-12 row-info">
@@ -656,7 +625,7 @@
 								<i class="fas fa-check project-icon-style"></i>
 								<div class="card-body remove-body-padding ">
 									<h5 class="card-title card-heading-style-proj">Construction
-										(Mitigated)<i class="fas fa-question-circle style-question-mark"></i></h5>
+										(Mitigated)<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the measures put in place to reduce potential impacts."></i></h5>
 									<div class="row no-gutters">
 										<div class="col-12 row-info">
 											<h6>Overall Impact: <span style="color: #00AA65">Slight</span></h6>
@@ -681,7 +650,7 @@
 								<i class="fas fa-globe-europe project-icon-style"></i>
 								<div class="card-body remove-body-padding ">
 									<h5 class="card-title card-heading-style-proj">
-										Operation<i class="fas fa-question-circle style-question-mark"></i></h5>
+										Operation<i class="fas fa-question-circle style-question-mark" data-toggle="tooltip" data-placement="top" title="This section describes the potential long-term impacts after construction has been completed."></i></h5>
 									<div class="row no-gutters">
 										<div class="col-12 row-info">
 											<h6>Overall Impact: <span style="color: #00AA65">None</span></h6>
@@ -713,7 +682,7 @@
 
 	</section>
 
-<!--Footer-->
+	<!--Footer-->
 	<section>
 		<div class="container-fluid footer-style">
 			<div class="container">
@@ -752,8 +721,12 @@
 		</div>
 	</section>
 
-
-
+	<!--Load Bootstrap Tooltips for question mark-->
+	<script>
+		$(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+	</script>
 
 
 
