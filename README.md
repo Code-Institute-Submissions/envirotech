@@ -109,40 +109,49 @@ Used for icons
 
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+To begin testing, I started on the home page. All interactive elements were checked first. On Desktop, any hover effects/color changes 
+were checked (social media links). On mobile, the same effects were checked when links were clicked. 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+I then moved on to hard link checking. Every link on the page was checked to ensure that it directed the user to the 
+correct page. Every button was clicked and checked that it directed the user to the correct page.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Any links that activated modals were checked that they functioned correctly. All modals were checked to see if the 'close' buttons 
+function correctly. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The site was then tested on multiple screen sizes and orientations (horizontal & vertical) using Chrome Developer Tools. All text was checked to make sure it was easily readible on any screen
+size. Item spacing was checked to make sure there was sufficient spacing between all elements on all screen sizes.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The 'preview' list of projects that strecthes across the full screen of a desktop is not needed on smaller screens. I checked that 
+items added to the 'd-none d-md.. etc' appeared and disappeared as expected. 
 
-for testing imagine writing test instructions for a 5 year old and then show that you have completed it
+The text at the top of the screen was reformatted on larger screens to make it more readible and stylish. I checked that this restyling occured
+when expected. 
+
+I checked that images did ot become distorted when viewed on larger screens. 
+
+I hovered over all interactive 'tooltips' on desktop and clicked them on mobile to check that they function as expcected.  
+
+Form Submissions were checked for the following:
+- All required feels are marked as so and must be filled in before submission is possible 
+- Emails are checked using HTML5 to ensure that they include an '@' before submission 
+- Drop down menus were clicked ato sure proper functioning  
+
+### Bugs or Issues left to fix
+- It was not possible to validate the html form on client side (HTML5 (without javascript)) while also displaying a success message in the form of a modal when a form is submitted (data toggle)
+For now - The form model just closes upon submission
+
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+I used git init  to initialise a local repository 
+I used git add . - to add the base directory of project code into the local git repository
+I used git commit -m ".." to commit to the local repository with a message containing information on the version
+I used git push to push the local repository to the remote repositiry on GitHub
 
-write about how you used git locally what commands you used so:
-git init - to initialise a local repository 
-git add . - to add the base direfctory of project code into teh local git repository
-git commit -m "message" - to commit to local repo with semantic message
-git push - to push local repo to remote repo on GitHub
-
-then explain how you went to the settings in guthub and activated the github pages with your master branch to publish website
+I then activated the site as public on GitHub Pages
 
 ## Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+All content is original (with the help of an environmental scientist)
 Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+The photos used in this site are all copyright free - taken from sites such as pixabay.com 
